@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+
+/* Bootstrap 4 text input with search icon */
+ #navbutton{
+     color: #333;
+ }
+#navul li{
+	line-height: 40px;
+}
+#navul .focustransparent{
+	background-color: rgb(228 228 237);;
+}
+ #navbutton:hover{	 
+	background-color:#ecf0f5;
+}
+#menubar{
+ 	box-shadow: 10px white; 
+}
+
+.banniere{
+	position: relative;
+	padding: 0px !important;
+}
+
+.titres{
+	width:100%;
+	position: absolute;
+	top: 300px !important;
+	text-align: center;
+}
+.banniere-texte1,.banniere-texte2{
+	color: white;	
+	font-weight: bolder;
+}
+.banniere-texte2{
+	padding-top: 20px;
+}
+.banniere-btn{
+	padding-top: 45px;
+}
+
+.banniere-btn div{
+	display: inline-flex;
+}
+.main-section1{
+	text-align: center;
+}
+.main-section3{
+	text-align: center;	
+}
+.main-section3 div{
+	display:inline-table;
+}
+
+.main-block{
+	padding-top: 50px
+}
+.main-menu ul li{
+	display: inline-block;
+}
+
+.footer2-1 li a , .footer2-2 li a , .footer2-3 li a{
+	text-decoration: none !important;
+	color: white;
+}
+
+
+form .searcheinput{
+	display: inline-block;
+ box-shadow: 5px 5px 5px #888888;
+		
+	
+}
+.divformsearche{
+	box-shadow: 5px 5px 5px #888888;
+	margin-top: 60px;
+	
+	
+}
+.searchebaseinfo{
+	box-shadow: 5px 5px 3px 5px #888888;
+	border-radius: 10px;
+width: 597px !important;
+background: #8ee6de;
+
+}
+.divformmaps{
+		border-radius: 10px ;		
+}
+.card-element div{
+	padding-top: 5px !important;
+}
+
+/*payementMethodeCs*/
+
+.cc-img {
+        margin: 0 auto;
+    }
+    
+/*proposer*/
+#sf1 .row{
+	padding: 10px;
+}
+#sf2 .row{
+	padding: 10px;
+}
+#sf3 .row{
+	padding: 15px;
+}
+#sf3 .row .row .row{
+	padding: 15px;
+}
+.errorTxt{
+	color: red;
+}
+.error{
+	color: red;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+ <nav class="navbar navbar-expand-lg navbar-light " id="menubar">
+  <div class="container-fluid" style="padding-right: 0px !important;background: #fff !important;">
+    <a class="navbar-brand" href="#">
+    
+          <img src="{{url('img/logo.jpg')}}" alt="" width="40" height="30">
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <div class="form-group has-search mx-auto">
+        
+  	  </div>
+      
+       <ul class="navbar-nav mb-2 mb-lg-0">
+       <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">
+<!--         <i><img alt="" src="{{url('img/add20.png')}}"></i> -->
+             <button class="btn " id="navbutton">Acceuille</button>
+          </a>
+        </li>
+     
+        <li class="nav-item">
+          <a class="nav-link" href="/proposer">
+<!--             <i><img alt="" src="{{url('img/wallet20.png')}}"></i> -->
+          	<button class="btn " id="navbutton"> Publier une annonce</button>
+          </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/faq">
+<!--              <i><img alt="" src="{{url('img/add20.png')}}"></i> -->      
+            <button class="btn" id="navbutton"> Infos utiles</button>
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/a-propos">
+<!--              <i><img alt="" src="{{url('img/add20.png')}}"></i> -->      
+            <button class="btn" id="navbutton"> A Propos</button>
+          </a>
+        </li>
+        
+        @if(auth()->check())
+        <li class="nav-item">
+          <a class="nav-link " href="#"  >
+           <button class="btn btn-danger">Mon-compte</button>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="/deconnexion"  >
+           <button class="btn btn-danger">Deconnexion</button>
+          </a>
+        </li>
+        
+        @else
+        
+        <li class="nav-item">
+          <a class="nav-link " href="/inscription"  >
+           <button class="btn btn-danger">Creer un compte</button>
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link " href="/connexion"  >
+           <button class="btn btn-primary">Se connecter</button>      
+          </a>
+        </li>
+
+        @endif
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
